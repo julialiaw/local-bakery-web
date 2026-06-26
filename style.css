@@ -1,0 +1,129 @@
+
+
+@font-face {
+    font-family: "MonoCutesy";
+    src: url('fonts/MonoCutesy-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MonoCutesy";
+    src: url('fonts/MonoCutesy-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Winsome";
+    src: url('fonts/Winsome-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'MonoCutesy';
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Winsome';
+}
+
+p {
+    font-family: 'MonoCutesy'
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(83, 25, 53, 0.7), rgba(36, 28, 28, 0.486)), url(assets/banner.jfif);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    font-family: 'MonoCutesy';
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s
+}
+
+.nav-links ul li a:hover { 
+    color: #87c1e8;
+    text-decoration: underline;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center; 
+
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.cover-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 14px 33px;
+    border-radius: 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.cover-btn:hover {
+    background: #87c1e8;
+    color: #40241b;
+    transition: 0.5s;
+}
+
+/*
+blue #78A5CE // #87c1e8
+beige #FFF0d9
+pink #DDA4B4
+brow #7C5548
+darker brown #40241b
+
+*/
