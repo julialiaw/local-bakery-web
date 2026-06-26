@@ -15,6 +15,13 @@
 }
 
 @font-face {
+    font-family: "MonoCutesyMoney";
+    src: url('fonts/MonocutesyMoney-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Winsome";
     src: url('fonts/Winsome-Regular.ttf');
     font-weight: normal;
@@ -111,7 +118,7 @@ nav {
 .cover-btn:hover {
     background: #87c1e8;
     color: #40241b;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .about {
@@ -123,7 +130,7 @@ nav {
 h1 {
     font-family: 'Winsome';
     font-size: 40px;
-    color:#40241b
+    color:#40241b;
 }
 p {
     font-family: 'MonoCutesy';
@@ -150,13 +157,26 @@ p {
     border:1px solid #7C5548;
     border-radius: 20px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 25px 12px;
     box-sizing: border-box;
+    transition: box-shadow 0.6s;
 }
 
 .reviews-col:hover {
     box-shadow: 0 0 20px 0px #fabbcd;
     transition: 0.5s;
+}
+
+.reviews-col h3 {
+    font-family: 'MonoCutesy';
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 
