@@ -9,22 +9,27 @@
 </head>
 <body>
 <section>
-    <section class="header">
+    <section class="header" id="header">
         <nav>
-            <a href="menu.html"></a>
-            <div class="nav-links">
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html">ABOUT</a></li>
                     <li><a href="">MENU</a></li>
                 </ul>
             </div>
         </nav>
+        
     </section>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    <script src="script.js"></script>
     
 </section>
 
-<div class="products">
+<div class="products2">
     <h1>made for you</h1>
     <p>take a look at our selection of dishes!</p>
     <div class="row">
@@ -62,7 +67,7 @@
             <p class="price"></p>
         </div>
         <div class="products-col">
-            <img src="assets/bread dishes.jfif">
+            <img src="assets/bread dish.jfif">
             <h3>Toast</h3>
             <p>Delicious and carefully prepared toast.</p>
             <p class="price"></p>

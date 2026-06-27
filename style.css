@@ -228,6 +228,67 @@ p {
     padding-bottom: 40px;
 }
 
+/*---menu products---*/
+
+.products-btn {
+    border: 1px solid #40241b;
+    background: #FFF0d9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.products-btn:hover {
+    background: #94cdf3;
+    transition: background-color 0.3s;
+    font-family: 'MonoCutesy';
+    font-weight: bold;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.products2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.products-col {
+    flex-basis: 31%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.products-col img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.products-col p {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.products-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
 /*---made with love---*/
 
 .row {
@@ -303,60 +364,7 @@ span {
     margin-bottom: 15px;
 }
 
-/*---menu products---*/
-
-.products-btn {
-    border: 1px solid #40241b;
-    background: #FFF0d9;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
-}
-
-.products-btn:hover {
-    background: #94cdf3;
-    transition: background-color 0.3s;
-    font-family: 'MonoCutesy';
-    font-weight: bold;
-}
-
-.products {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.products-col {
-    flex-basis: 31%;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-
-.products-col img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
-
-}
-
-.products-col p {
-    padding: 0;
-    text-align: left;
-    margin-bottom: 2px;
-}
-
-.products-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
+/*---footer---*/
 
 .footer {
     width: 100%;
@@ -373,11 +381,15 @@ span {
     font-size: 25px;
 }
 
+.footer p {
+    margin-bottom: 10px;
+}
+
 .icons .fa {
     color:#40241b;
     margin: 0 13px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 0px 0;
 }
 
 .fa.fa-heart-o {
