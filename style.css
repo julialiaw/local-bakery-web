@@ -193,6 +193,7 @@ nav .fa {
     background: transparent;
     position: relative;
     cursor: pointer;
+    display:none;
     
 }
 
