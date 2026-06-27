@@ -43,7 +43,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(83, 25, 53, 0.7), rgba(36, 28, 28, 0.486)), url(assets/banner.jfif);
+    background-image: linear-gradient(rgba(238, 204, 165, 0.7), rgba(36, 28, 28, 0.486)), url(assets/banner.jfif);
     background-position:center;
     background-size: cover;
     position: relative;
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-links ul li a:hover { 
-    color: #87c1e8;
+    color: #40241b;
     text-decoration: underline;
 }
 
@@ -138,6 +138,30 @@ p {
     padding: 5px;
 }
 
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.process {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.process-col {
+    flex-basis: 40%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.process-col img {
+    width: 100%;
+}
+
 .reviews {
     width: 80%;
     margin: auto;
@@ -145,11 +169,7 @@ p {
     padding-top: 100px;
 }
 
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .reviews-col {
     flex-basis: 31%;
@@ -163,7 +183,7 @@ p {
 }
 
 .reviews-col:hover {
-    box-shadow: 0 0 20px 0px #fabbcd;
+    box-shadow: 0 0 20px 0px #87c1e8;
     transition: 0.5s;
 }
 
@@ -177,6 +197,37 @@ p {
 span {
     display: inline-block;
     margin-bottom: 15px;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.products-col {
+    flex-basis: 31%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.products-col img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.products-col p {
+    padding: 0;
+    text-align: left;
+}
+
+.products-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 
