@@ -135,10 +135,16 @@ nav {
     transition: 0.3s;
 }
 
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 100px;
+    }
+}
+
 /*---about area---*/
 
 .about {
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -151,19 +157,28 @@ h1 {
 p {
     font-family: 'MonoCutesy';
     font-size: 20px;
-    padding: 5px;
+    padding: 1px;
+    padding-bottom: 40px;
 }
+
+/*---made with love---*/
 
 .row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
+
+.process-bg {
+    width: 100%;
+    background-color: #FFF0d9;
+}
+
 .process {
     width: 60%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding: 40px;
 }
 
 .process-col {
@@ -172,12 +187,16 @@ p {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .process-col img {
     width: 100%;
     overflow: hidden;
     height: 100%;
+    object-fit: cover;
 }
 
 /*---reviews page---*/
@@ -219,6 +238,25 @@ span {
 
 /*---menu products---*/
 
+.products-btn {
+    border: 1px solid #40241b;
+    background: #FFF0d9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.products-btn:hover {
+    background: #94cdf3;
+    transition: background-color 0.3s;
+    font-family: 'MonoCutesy';
+    font-weight: bold;
+}
+
 .products {
     width: 80%;
     margin: auto;
@@ -244,6 +282,7 @@ span {
 .products-col p {
     padding: 0;
     text-align: left;
+    margin-bottom: 2px;
 }
 
 .products-col h3 {
