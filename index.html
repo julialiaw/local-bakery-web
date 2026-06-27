@@ -5,13 +5,15 @@
     <title>your local bakery!!</title>
     <link href="style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <section class="cover">
-    <section class="header">
+    <section class="header" id="header">
         <nav>
             <a href="index.html"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -19,8 +21,12 @@
                 </ul>
             </div>
         </nav>
+        
     </section>
-    
+<i class="fa fa-bars" onclick="showMenu()"></i>
+
+<script src="script.js"></script>
+
 <div class="text-box" id="home">
     <h1>welccy to your local bakery!!</h1>
     <p>enjoy our cozy cafe setting~!</p>
@@ -127,9 +133,7 @@
     <p>Made with <i class="fa fa-heart-o"></i> by Julia wu!</p>
 </section>
 
-<script>
 
-</script>
 
 </body>
 </html>
