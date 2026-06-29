@@ -48,7 +48,7 @@ html, body {
 }
 
 /*---navigation bar---*/
-.header {
+.headerOutline {
     background-color:#FFF0d9;
     margin: 0;
     overflow: hidden;
