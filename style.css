@@ -115,7 +115,7 @@ nav .fa {
         padding: 12px 20px;
         
     }
-    .header {
+    .headerOutline {
         position: fixed;
         background-color: #87c1e8;
         height: 100vh;
@@ -414,6 +414,36 @@ span {
     font-size: 14px;
 }
 
+/*---order a cookie---*/
+
+.orderCookie {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 40px;
+    margin-bottom: 0;
+    background-color: #FFF0d9;
+}
+
+.orderCookie p {
+    padding: 0 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media(max-width: 700px) {
+    .orderCookie {
+        max-width: 700px;
+    }
+    .orderCookie p {
+        max-width: 600px;
+        padding: 0 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 
 
 /*
